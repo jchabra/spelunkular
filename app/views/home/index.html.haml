@@ -1,11 +1,14 @@
 #spelunkular_form
-  .field
-    = label_tag :url
-    = text_field_tag :url
-  .field
-    = label_tag :depth
-    = number_field_tag :depth
-  .actions
-    = submit_tag
 
-#images 
+  = form_tag '/get_html', :remote => true do
+
+    = label_tag 'url'
+    = text_field_tag 'url'
+
+    = label_tag 'depth'
+    = number_field_tag 'depth'
+
+    = submit_tag 'Go'
+
+
+#images
