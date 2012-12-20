@@ -1,0 +1,5 @@
+$('#images').empty();
+
+<% Image.all.each do |image| %>
+  $('#images').prepend('<div class="images"><%= image_tag image.image_url %></div>');
+<% end %>

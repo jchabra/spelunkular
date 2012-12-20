@@ -1,7 +1,7 @@
 Spelunkular::Application.routes.draw do
 
   root :to => 'home#index'
-  post '/get_html' => 'home#get_html'
+  post '/get_images' => 'home#get_images'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

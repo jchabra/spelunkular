@@ -1,7 +1,7 @@
 class AddImagesTable < ActiveRecord::Migration
   def change
-    create_table :photos do |t|
-      t.string :photo_url
+    create_table :images do |t|
+      t.string :image_url
       t.timestamps
     end
   end

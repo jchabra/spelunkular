@@ -13,8 +13,8 @@
 
 ActiveRecord::Schema.define(:version => 20121219202249) do
 
-  create_table "photos", :force => true do |t|
-    t.string   "photo_url"
+  create_table "images", :force => true do |t|
+    t.string   "image_url"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
