@@ -13,7 +13,7 @@ class Crawler
   end
 
   def clean_urls(links, url)
-    regex = /(http[s]?:\/\/.*?[\/])/m
+    regex = /(https?:\/\/\w+[\.\w]+)/m
     url = url.scan(regex).flatten
     url = url[0]
     @new_links = []

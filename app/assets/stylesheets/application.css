@@ -1,9 +1,11 @@
 .images {
   float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
 }
 
 #spelunkular_form {
   padding: 100px;
   margin: 0 auto;
-
 }
